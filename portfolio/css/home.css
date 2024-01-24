@@ -1,0 +1,279 @@
+                          
+                            *{
+                                margin: 0;
+                                padding: 0;
+                                font-family: Arial Rounded 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                            section{
+                                height: 100vh;
+                            
+                            }
+                            section #home{
+                                position: relative;
+                            }
+                            header{
+                                position: fixed;
+                                width: 100% !important;
+                                height: 18%;
+                                z-index: 9999;
+                                background-color: white;
+                            }
+                            .pic_nako img{
+                                position: absolute;
+                                width: 20%;
+                                height: 70%;
+                                border-radius: 50%;
+                                right: 100px;
+                                bottom: 30px;
+                            }
+                            .logo{
+                                width: 150px;
+                                height: 150px;
+                                padding-left: 10px;
+                            }
+                            nav{
+                                display: flex;
+                                width: 100%;
+                                margin: auto;
+                                padding: 10px 0px;
+                                align-items: center;
+                                justify-content: space-between;
+                            }
+                            nav ul li{
+                                display: inline-block;
+                                list-style: none;
+                                margin: 10px 20px;
+
+                            }
+                            nav ul li a{
+                                text-decoration: none;
+                                color:black;
+                                font-weight: bold;
+                            }
+                            nav ul li a:hover{
+                                color:red;
+                            }
+                            .text1{
+                                position: absolute;
+                                top: 300px;
+                                left: 25%;
+                                font-size: 40px;
+                                font-weight: bold;
+                                letter-spacing: 5px;
+                                height: 40%;
+                                width: 60%;
+                            
+                                
+                                
+                            }
+                            @keyframes text{
+                                85%{
+                                    letter-spacing: 8px;
+                                    
+                                }
+                            }
+                            .text1 a{
+                                text-decoration: none;
+                                color: black;
+                                font-size: 60px;
+                                font-family: Arial Rounded 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                            .text1 a:hover{
+                                color:red;
+                                animation: text 5s 1;
+                            }
+                            #picture{
+                                position: absolute;
+                                right: 0;
+                                bottom: 0;
+                                width: 60%;
+                                height: 70%;
+                            }
+                            .web::before {
+                                content: "Web Development"; 
+                                animation: animate infinite 8s; 
+                                padding-left: 10px; 
+                            }
+                            
+                            @keyframes animate { 
+                            
+                                25% { 
+                                    content: "Web Development"; 
+                                } 
+                            
+                                50% { 
+                                    content: "Web Designing"; 
+                                } 
+                            
+                                75% { 
+                                    content: "Programming"; 
+                                } 
+                                100%{
+                                    content:"IT Expert" ;
+                                }
+                            }
+                            .web{
+                                position: absolute;
+                                bottom:2.5in;
+                                left: 6in;
+                                font-size: 40px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                background-color: black;
+                                color: white;
+                                padding: 10px;
+                                border-radius: 50px;
+                                letter-spacing: 4px;
+                            }
+
+                            .web:hover{
+                                animation: text 5s 1;
+                                
+                            }
+                            
+                            #Edu{
+                                position: relative;
+                                height: 1200px;
+                                
+                            }
+                            div.gallery img {
+                                width: 100%;
+                                height: auto;
+                            }
+                            
+                            div.desc {
+                                padding: 15px;
+                                text-align: center;
+                            }
+                            
+                            * {
+                                box-sizing: border-box;
+                            }
+                            .clearfix:after {
+                                content: "";
+                                display: table;
+                                clear: both;
+                            }
+                            .junio{
+                                width: 40%;
+                                float: left;
+                                margin-right: 15px;
+                            }
+                            #senior{
+                                float: right;
+                            }
+                            .elem{
+                                position: relative;
+                                width: 35%;
+                                left: 500px;
+                            }
+                            .elem img{
+                                border-radius: 10%;
+                            }
+                            .note{
+                                position: absolute;
+                                width: 25%;
+                                background-color: rgb(208, 249, 73);
+                                right: 70px;
+                                bottom: 100px;
+                                height: 30%;
+                                text-align: justify;
+                                padding: 20px;
+                                border-radius: 10%;
+                                box-shadow: 10px 10px rgba(0, 0,0, .3);
+                            }
+                            .note p{
+                                margin-top: 45px;
+                                
+                            }
+                            .note_0 {
+                                position: absolute;
+                                width: 25%;
+                                background-color: rgb(114, 209, 247);
+                                left: 80px;
+                                bottom: 100px;
+                                max-height: 300px; 
+                                overflow: auto;   
+                                text-align: justify;
+                                padding: 20px;
+                                border-radius: 10%;
+                                box-shadow: 10px 10px rgba(0, 0, 0, .3);
+                            }
+                            
+                            .note_0 p {
+                                margin-top: 15px; 
+                            }
+                            .note_0::-webkit-scrollbar {
+                                display: none;
+                            }
+                            
+                            .cation p{
+                                font-size: 50px;
+                                text-align: center;
+                            }
+                            #Contact {
+                                position: relative;
+                                height: 100vh;
+                                background-color: #f8f8f8;
+                                text-align: center;
+                                padding: 50px 0;
+                            }
+                            
+                            .contact-section h2 {
+                                font-size: 2.5em;
+                                color: #333;
+                                margin-bottom: 30px;
+                            }
+                            
+                            .contact-container {
+                                max-width: 600px;
+                                margin: 0 auto;
+                                
+                            }
+                            
+                            .contact-item {
+                                font-size: 1.2em;
+                                margin: 15px 0;
+                            }
+                            
+                            .contact-item a {
+                                color: #007bff;
+                                text-decoration: none;
+                            }
+                            
+                            .contact-item a:hover {
+                                text-decoration: underline;
+                            }
+                            
+
+                            #Contact {
+                                position: relative;
+                                height: 50vh;
+                                background-color: #f8f8f8;
+                                text-align: center;
+                                padding: 50px 0;
+                            }
+                        
+                            .contact-section h2 {
+                                font-size: 2.5em;
+                                color: #333;
+                                margin-bottom: 30px;
+                            }
+                        
+                            .contact-container {
+                                max-width: 600px;
+                                margin: 0 auto;
+                            }
+                        
+                            .contact-item {
+                                font-size: 1.2em;
+                                margin: 15px 0;
+                            }
+                            
+                            .contact-item a {
+                                color: #007bff;
+                                text-decoration: none;
+                            }
+                        
+                            .contact-item a:hover {
+                                text-decoration: underline;
+                            }

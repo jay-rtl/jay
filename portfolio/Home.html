@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Francis Jay Rotol</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/F.png" alt="logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Edu">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://docs.google.com/document/d/1-GPm1oJ3Iwd1BcUXIv4TNKJMrr8KC0ss/edit?usp=sharing&ouid=109295065180999958710&rtpof=true&sd=true">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section id="home">
+    <div class="name">
+        <span class="text1">Hi, I'm <a href="https://www.facebook.com/jayrotol05">FRANCIS JAY!</a></span>
+        <span class="web"></span>
+    </div>
+    <div class="pic_nako">
+        <img src="img/jay.jpg" alt="picture ni">
+    </div>
+    
+</section>
+
+<section id="Edu">
+  <div class="junio">
+    <div class="gallery">
+      <img src="img/highschool.jpg" alt="High School">
+      <div class="desc"><b>HOLY TRINITY ACADEMY OF LOAY</b><br><b>JUNIOR AND SENIOR HIGHSCHOOL</b></div>
+    </div>
+  </div>
+  <div class="junio" id="senior">
+    <div class="gallery">
+      <img src="img/cite.jpg" alt="CITE">
+      <div class="desc"><b>Center for Industrial Technology and Enterprise (CITE)</b></div>
+    </div>
+  </div>
+  <div class="cation">
+    <p class="hide">
+      <b>
+        E
+        <br> D
+        <br> U
+        <br> C
+        <br> A
+        <br> T
+        <br> I
+        <br> O
+        <br> N
+      </b>
+    </p>
+  </div>
+
+  <div class="note_0">
+    <p>
+      <b> CORE COMPETENCIES</b>
+
+      <b>Computer Engineering Technology</b>
+
+      <br>-Working knowledge in MS Word, MS Excel, MS PowerPoint, MS Publisher
+      <br>-Set up and maintain local and wide area networks and install hardware and software applications
+      <br>-Perform programming tasks in PHP, MySQL, Database, C, C++, and Visual Basic
+      <br>-Design web pages and other similar computer graphics and multimedia applications such as Adobe Photoshop
+      <br>-Design publications using Adobe PageMaker, Corel Draw, and similar software
+      <br>-Proficient in internet use and e-mail correspondence
+      <br>-Proficient at troubleshooting computer problems
+      <br>-A lot of experience installing CCTV systems
+      <br>-Excel in providing effective tech support
+
+    </p>
+  </div>
+  <div class="elem">
+    <div class="gallery">
+      <img src="img/elem.jpg" alt="Elementary School">
+      <div class="desc"><b>VILLALIMPIA, ELEMENTARY, SCHOOL</b></div>
+    </div>
+  </div>
+  <div class="note">
+    <p>
+      <b> CITE Technical Institute, Inc. (San Jose, Cebu City)</b>
+      <br>-Diploma in Computer Engineering Technology (July 2021-present)<br>
+      -Obtained a GWA of 1.55 in the 1st Trimester (June 2022)<br>
+      -CSS NC II Holder(August 2022)<br>
+      -EPAS NC II Holder (September 2022)
+    </p>
+  </div>
+</section>
+
+
+<section id="Contact" class="contact-section">
+  <div class="contact-container">
+      <h2>Contact Information</h2>
+      <p class="contact-item"><i class="bi bi-envelope-fill"></i> Email: <a href="mailto:your@email.com">rotoljay03@gmail.com</a></p>
+      <p class="contact-item"><i class="bi bi-phone"></i> Phone: +63 9512352816</p>
+     
+      <button class="btn btn-primary" onclick="composeEmail()">Send Message</button>
+  </div>
+</section>
+
+<script>
+  function composeEmail() {
+      var subject = "Hello Francis Jay"; 
+      var body = "Dear Francis Jay,\n\nI would like to connect with you..."; // Set your desired email body
+      window.location.href = "mailto:rotoljay03@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  }
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
